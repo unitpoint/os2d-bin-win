@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "images" />
+	<atlas>
+		<image file="level-01-walls.png" />
+		<image file="level-05-walls.png" />
+		<image file="elevator-inside-01.jpg" />
+		<image file="elevator-inside-up-button.jpg" />
+		<image file="door-01-left.jpg" />
+		<image file="door-01-right.jpg" />
+		<image file="hud-items-panel.jpg" />
+		<image file="hud-panel-slot.png" />
+		<image file="hud-panel-slot-selected.png" />
+		<image file="obj-01.png" />
+		<image file="obj-02-slot.png" />
+		<image file="obj-02.png" />
+		<image file="obj-03-slot.png" />
+		<image file="obj-03.png" />
+		<image file="light-red.png" />
+		<image file="light-green.png" />
+		<image file="hud-button-home-pressed.png" />
+		<image file="hud-button-home.png" />
+		<image file="hud-button-restart-pressed.png" />
+		<image file="hud-button-restart.png" />
+		<image file="broken-panel.png" />
+	</atlas>
+
+	<set path = "fonts" />
+	<font file="normal.fnt"/>
+	<font id="big" file="huge.fnt"/>
+</resources>
