@@ -31,13 +31,13 @@ Level_2 = extends Level {
 				var goodPos = math.abs(@brokenPanel.angle) < 5
 				if(goodPos){
 					@state = "WAIT_BOLT_USED"
-					@addTween(DoneTween(2500, function(){
+					@addTimeout(2.5, function(){
 						if(@state == "WAIT_BOLT_USED"){
 							@state = "GENERIC"
 							// @returnSlotObject(@bolt)
 							@startPanelSwing()
 						}
-					}.bind(this)))
+					}.bind(this))
 				}else{
 					// @state = "GENERIC"
 					@startPanelSwing()
@@ -58,13 +58,13 @@ Level_2 = extends Level {
 					@removeSlotObject(@bolt)
 					@setPanelPosHoriz()
 					@state = "WAIT_SCREWDRIVER_USED"
-					@addTween(DoneTween(2500, function(){
+					@addTimeout(2.5, function(){
 						if(@state == "WAIT_SCREWDRIVER_USED"){
 							@state = "GENERIC"
 							@returnSlotObject(@bolt)
 							@startPanelSwing()
 						}
-					}.bind(this)))
+					}.bind(this))
 				}
 			}.bind(this),
 		}
@@ -78,23 +78,25 @@ Level_2 = extends Level {
 			parent = this,
 			priority = 11,
 			// extendedClickArea = 30,
+		}
+		@initSlotObject{
+			@screwdriver,
 			onSlotSelected = function(){
 				if(@state == "WAIT_SCREWDRIVER_USED"){
 					@removeSlotObject(@screwdriver)
 					@state = "WAIT_VASE_POS"
 					@checkVasePosToFinish()
-					@addTween(DoneTween(2500, function(){
+					@addTimeout(2.5, function(){
 						if(@state == "WAIT_VASE_POS"){
 							@state = "GENERIC"
 							@returnSlotObject(@bolt)
 							@returnSlotObject(@screwdriver)
 							@startPanelSwing()
 						}
-					}.bind(this)))
+					}.bind(this))
 				}
 			}.bind(this),
 		}
-		@initSlotObject{@screwdriver}
 		
 		@vase = Sprite().attrs {
 			// name = "obj-02",
@@ -115,7 +117,7 @@ Level_2 = extends Level {
 			}.bind(this),
 		}
 		
-		@startPanelSwing(1000)
+		@startPanelSwing(1.0)
 	},
 	
 	checkVasePosToFinish = function(){
@@ -128,12 +130,17 @@ Level_2 = extends Level {
 	},
 	
 	stopPanelSwing = function(){
-		@brokenPanel.removeTweensByName("panelSwing")
+		@brokenPanel.removeActionsByName("panelSwing")
 	},
 	
 	setPanelPosHoriz = function(){
 		@stopPanelSwing()
-		@brokenPanel.addTween("angle", 0, 100, 1, false, 0, Tween.EASE_INOUTQUAD).name = "panelSwing"
+		@brokenPanel.addTweenAction {
+			name = "panelSwing",
+			duration = 0.1, 
+			angle = 0, 
+			ease = Ease.QUAD_IN_OUT
+		}
 	},
 	
 	startPanelSwing = function(delay){
@@ -141,11 +148,29 @@ Level_2 = extends Level {
 		if(@brokenPanel.angle > angles[0]){
 			angles[0], angles[1] = angles[1], angles[0]
 		}
-		var seq = SequenceTween()
-		seq.add("angle", angles[0], 1000, 1, false, delay || 0, Tween.EASE_INOUTQUAD)
-		seq.add("angle", angles[1], 1000, 1, false, 0, Tween.EASE_INOUTQUAD)
-		seq.doneCallback = function(){ @startPanelSwing() }.bind(this)
-		seq.name = "panelSwing"
-		@brokenPanel.addTween(seq)
+		var action = RepeatForeverAction(SequenceAction(
+			TweenAction {
+				duration = 1,
+				angle = angles[0],
+				ease = Ease.QUAD_IN_OUT,
+			},
+			TweenAction {
+				duration = 1,
+				angle = angles[1],
+				ease = Ease.QUAD_IN_OUT,
+			},
+		))
+		if(delay){
+			/* RepeatForeverAction.update is not implemented
+			action = SequenceAction(
+				TimeoutAction(delay),
+				action,
+			) */
+			var normalAction = action
+			action = TimeoutAction(delay, function(){
+				@brokenPanel.addAction(normalAction).name = "panelSwing"
+			}.bind(this))
+		}
+		@brokenPanel.addAction(action).name = "panelSwing"
 	},
 }

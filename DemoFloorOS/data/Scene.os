@@ -12,9 +12,10 @@ Scene = extends Actor {
 	show = function(parent){
 		@sceneTransition = "show"
 		@parent = parent || @parent || stage
-		@removeTweensByName("sceneTransition")
-		@opacity != 1 && @addTween("opacity", 1, 500).attrs {
+		@opacity != 1 && @replaceTweenAction {
 			name = "sceneTransition",
+			duration = 0.5,
+			opacity = 1,
 			doneCallback = function(){
 				@sceneTransition = null
 			}.bind(this),
@@ -23,10 +24,11 @@ Scene = extends Actor {
 	
 	hide = function(){
 		@sceneTransition = "hide"
-		@removeTweensByName("sceneTransition")
-		@addTween("opacity", 0, 500).attrs {
+		@replaceTweenAction {
 			name = "sceneTransition",
-			detachActor = true,
+			duration = 0.5,
+			opacity = 0,
+			detachTarget = true,
 			doneCallback = function(){
 				@sceneTransition = null
 			}.bind(this),
