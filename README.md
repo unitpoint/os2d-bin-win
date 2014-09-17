@@ -9,7 +9,7 @@ Run DemoOS\Demo.exe file to start DemoOS. Click next youtube video to view the D
 [![Opensource DemoOS example made with OS2D](http://unitpoint.ru/os2d-examples/Demo.jpg)](http://www.youtube.com/watch?v=w8IdHx2uq0c)
 
 Run ElasticTransitionOS\ElasticTransition.exe file to start ElasticTransitionOS.
-[![Opensource ElasticTransitionOS example made with OS2D](ElasticTransitionOS.jpg)]
+![Opensource ElasticTransitionOS example made with OS2D](http://unitpoint.ru/os2d-examples/ElasticTransitionOS.jpg)
 
 Run SeqTweenOS\SeqTween.exe file to start SeqTweenOS.
-[![Opensource SeqTweenOS example made with OS2D](SeqTweenOS.jpg)]
+![Opensource SeqTweenOS example made with OS2D](http://unitpoint.ru/os2d-examples/SeqTweenOS.jpg)
