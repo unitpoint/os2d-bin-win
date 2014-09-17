@@ -1,8 +1,8 @@
 ## OS2D Windows compiled examples ready to run
 
-Each example folder contains executable file ready to run. Open source examples are located here https://github.com/unitpoint/os2d
+Each example folder contains executable file ready to run. These examples are opensource, they are located here https://github.com/unitpoint/os2d
 
-One more example: [CastleMonster made with OS2D](https://github.com/unitpoint/CastleMonster)
+One more opensource example: [CastleMonster made with OS2D](https://github.com/unitpoint/CastleMonster)
 
 ### SeqTweenOS
 Run SeqTweenOS\SeqTween.exe file to start SeqTweenOS.
