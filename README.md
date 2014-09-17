@@ -1,3 +1,3 @@
 ## OS2D's Windows compiled examples ready to run
 
-Run DemoFloorOS\run.cmd file to start DemoFloorOS
+Run DemoFloorOS\DemoFloor.exe file to start DemoFloorOS
