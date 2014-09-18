@@ -4,22 +4,27 @@ Each example folder contains executable file ready to run. These examples are op
 
 One more opensource example: [CastleMonster made with OS2D](https://github.com/unitpoint/CastleMonster)
 
-### SeqTweenOS
-Run SeqTweenOS\SeqTween.exe file to start SeqTweenOS.
+### SeqTween
+Run SeqTween\SeqTween.exe file to start SeqTween. Click next youtube video to view the SeqTween:
 
-![Opensource SeqTweenOS example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/SeqTweenOS/SeqTween.jpg)
+[![Opensource SeqTween example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/SeqTween/SeqTween.jpg)](http://www.youtube.com/watch?v=p5zzlDh7DuI)
 
-### DemoFloorOS
-Run DemoFloorOS\DemoFloor.exe file to start DemoFloorOS. Click next youtube video to view the DemoFloorOS:
+### DemoFloor
+Run DemoFloor\DemoFloor.exe file to start DemoFloor. Click next youtube video to view the DemoFloor:
 
-[![Opensource DemoFloorOS example made with OS2D, level 2](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/DemoFloorOS/DemoFloor.jpg)](http://www.youtube.com/watch?v=rJRRq-x2uBI)
+[![Opensource DemoFloor example made with OS2D, level 2](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/DemoFloor/DemoFloor.jpg)](http://www.youtube.com/watch?v=rJRRq-x2uBI)
 
-### DemoOS
-Run DemoOS\Demo.exe file to start DemoOS. Click next youtube video to view the DemoOS:
+### AngryMonsters
+Run AngryMonsters\AngryMonsters.exe file to start AngryMonsters. Click next youtube video to view the AngryMonsters:
 
-[![Opensource DemoOS example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/DemoOS/Demo.jpg)](http://www.youtube.com/watch?v=w8IdHx2uq0c)
+[![Opensource AngryMonsters example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/AngryMonsters/AngryMonsters.jpg)](http://www.youtube.com/watch?v=vlrua_emfPM)
 
-### ElasticTransitionOS
-Run ElasticTransitionOS\ElasticTransition.exe file to start ElasticTransitionOS.
+### Demo
+Run Demo\Demo.exe file to start Demo. Click next youtube video to view the Demo:
 
-![Opensource ElasticTransitionOS example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/ElasticTransitionOS/ElasticTransition.jpg)
+[![Opensource Demo example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/Demo/Demo.jpg)](http://www.youtube.com/watch?v=w8IdHx2uq0c)
+
+### ElasticTransition
+Run ElasticTransition\ElasticTransition.exe file to start ElasticTransition.
+
+![Opensource ElasticTransition example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/ElasticTransition/ElasticTransition.jpg)
