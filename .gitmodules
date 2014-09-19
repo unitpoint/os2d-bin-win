@@ -1,0 +1,3 @@
+[submodule "CastleMonster"]
+	path = CastleMonster
+	url = ./CastleMonster
