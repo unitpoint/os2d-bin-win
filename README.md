@@ -17,7 +17,7 @@ Run DemoFloor\DemoFloor.exe file to start example.
 ### AngryMonsters
 Run AngryMonsters\AngryMonsters.exe file to start example.
 
-[![Opensource AngryMonsters example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/AngryMonsters/AngryMonsters.jpg)](http://www.youtube.com/watch?v=vlrua_emfPM)
+[![Opensource AngryMonsters example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/AngryMonsters/AngryMonsters-youtube.jpg)](http://www.youtube.com/watch?v=vlrua_emfPM)
 
 ### Demo
 Run Demo\Demo.exe file to start example.
