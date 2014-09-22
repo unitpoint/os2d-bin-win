@@ -5,31 +5,32 @@ Each example folder contains executable file ready to run. These examples are op
 One more opensource example: [CastleMonster made with OS2D](https://github.com/unitpoint/CastleMonster)
 
 ### SeqTween
-Run SeqTween\SeqTween.exe file to start example.
+Run SeqTween.cmd file to start example.
 
 [![Opensource SeqTween example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/SeqTween/SeqTween-youtube.jpg)](http://www.youtube.com/watch?v=p5zzlDh7DuI)
 
 ### DemoFloor
-Run DemoFloor\DemoFloor.exe file to start example.
+Run DemoFloor.cmd file to start example.
 
 [![Opensource DemoFloor example made with OS2D, level 2](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/DemoFloor/DemoFloor-youtube.jpg)](http://www.youtube.com/watch?v=rJRRq-x2uBI)
 
 ### AngryMonsters
-Run AngryMonsters\AngryMonsters.exe file to start example.
+Run AngryMonsters.cmd file to start example.
 
 [![Opensource AngryMonsters example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/AngryMonsters/AngryMonsters-youtube.jpg)](http://www.youtube.com/watch?v=vlrua_emfPM)
 
 ### Demo
-Run Demo\Demo.exe file to start example.
+Run Demo.cmd file to start example.
 
 [![Opensource Demo example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/Demo/Demo-youtube.jpg)](http://www.youtube.com/watch?v=w8IdHx2uq0c)
 
 ### ElasticTransition
-Run ElasticTransition\ElasticTransition.exe file to start example.
+Run ElasticTransition.cmd file to start example.
 
 ![Opensource ElasticTransition example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/ElasticTransition/ElasticTransition.jpg)
 
 ### CastleMonster
+Run CastleMonster\CastleMonster.exe file to start example.
 
 [![Opensource CastleMonster example made with OS2D](https://raw.githubusercontent.com/unitpoint/CastleMonster-bin-win/master/CastleMonster-youtube.jpg)](http://www.youtube.com/watch?v=YCaGgk8xEKA)
 
