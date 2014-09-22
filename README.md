@@ -5,7 +5,7 @@ Each example folder contains executable file ready to run. These examples are op
 One more opensource example: [CastleMonster made with OS2D](https://github.com/unitpoint/CastleMonster)
 
 ### SeqTween
-Run SeqTween.cmd file to start example.
+Run **SeqTween.cmd** file to start example.
 
 [![Opensource SeqTween example made with OS2D](https://raw.githubusercontent.com/unitpoint/os2d-bin-win/master/SeqTween/SeqTween-youtube.jpg)](http://www.youtube.com/watch?v=p5zzlDh7DuI)
 
