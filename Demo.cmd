@@ -1,1 +1,1 @@
-start launcher.exe -a Demo/data
+start os2d-launcher.exe -a Demo/data

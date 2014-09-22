@@ -1,1 +1,1 @@
-start launcher.exe -a DemoFloor/data
+start os2d-launcher.exe -a DemoFloor/data

@@ -1,1 +1,1 @@
-start launcher.exe -a ElasticTransition/data
+start os2d-launcher.exe -a ElasticTransition/data

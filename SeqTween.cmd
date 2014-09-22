@@ -1,1 +1,1 @@
-start launcher.exe -a SeqTween/data
+start os2d-launcher.exe -a SeqTween/data

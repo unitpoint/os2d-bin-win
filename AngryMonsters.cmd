@@ -1,1 +1,1 @@
-start launcher.exe -a AngryMonsters/data
+start os2d-launcher.exe -a AngryMonsters/data
