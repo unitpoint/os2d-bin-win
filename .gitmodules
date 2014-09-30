@@ -1,3 +1,6 @@
 [submodule "CastleMonster"]
 	path = CastleMonster
 	url = git@github.com:unitpoint/CastleMonster-bin-win.git 
+[submodule "eXeXeXeX"]
+	path = eXeXeXeX
+	url = git@github.com:unitpoint/eXeXeXeX-bin-win.git
