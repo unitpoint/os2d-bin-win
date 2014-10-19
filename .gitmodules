@@ -4,3 +4,6 @@
 [submodule "eXeXeXeX"]
 	path = eXeXeXeX
 	url = git@github.com:unitpoint/eXeXeXeX-bin-win.git
+[submodule "eXeXeXeX-apk"]
+	path = eXeXeXeX-apk
+	url = git@github.com:unitpoint/eXeXeXeX-apk.git
